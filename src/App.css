@@ -1,0 +1,204 @@
+/* App.css */
+
+/* Main container */
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Apply styles to the tabledata container */
+.tabledata {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  position: relative;
+  top:5rem;
+}
+
+/* Apply styles to the table */
+.tabledata table {
+  border: 2px solid #ccc;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Apply styles to table header cells */
+.tabledata th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Apply styles to table data cells */
+.tabledata td {
+  padding: 10px;
+}
+
+/* Apply styles to checkboxes and labels within table cells */
+.tabledata input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Apply styles to Edit and Delete buttons within table cells */
+.tabledata button {
+  background-color: transparent; /* Keep the original button color */
+  color: rgb(0, 0, 0);
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1.5px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px 10px;
+  position: relative;
+  left: 1rem;
+}
+
+/* Apply styles to Edit and Delete buttons on hover */
+.tabledata button:hover {
+  background-color: black; /* Keep the original button hover color */
+  color: rgb(255, 255, 255);
+}
+
+/* Apply styles to Edit and Delete buttons when active */
+.tabledata button:active {
+  opacity: 0.8;
+}
+
+/* Base styles for the form container */
+/* Base styles for the form container */
+.Form2 {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.Form2 h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+
+
+/* Label styles */
+.Form2 label {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+/* Input field styles */
+.Form2 input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Button styles */
+.Form2 .submit {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .Form2 {
+    max-width: 100%;
+  }
+}
+
+
+/* CSS for the form container */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* CSS for the form inputs and labels */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* CSS for the submit button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.header{
+  
+    margin-top:250px;
+    font-size:40px;
+    margin-left:20rem;
+  
+}
+
+
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .form-container {
+    max-width: 100%;
+  }
+}
+
